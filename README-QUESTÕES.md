@@ -210,8 +210,7 @@ Feedback dos usuários: Coletar feedbacks por meio de canais de supporte rápido
 
 # Questão 5 
 
-**
-Considerando a natureza do Clube de Benefícios (operações de I/O intensivas,
+**Considerando a natureza do Clube de Benefícios (operações de I/O intensivas,
 pagamentos, notificações), discuta a adequação do Node.js como tecnologia para
 o backend. Quais seriam as vantagens e desvantagens de utilizá-lo, e como você
 mitigaria os desafios conhecidos (ex: CPU-bound tasks, gerenciamento de
@@ -221,8 +220,7 @@ A equipe decidiu utilizar Angular com Ionic para o desenvolvimento da interface 
 usuário (web e mobile). Avalie esta escolha. Quais seriam os principais benefícios
 (ex: desenvolvimento cross-platform, reutilização de código) e potenciais desafios
 (ex: performance em UIs complexas, acesso a funcionalidades nativas
-específicas) dessa abordagem para o Clube de Benefícios?
-**
+específicas) dessa abordagem para o Clube de Benefícios?**
 
 
 Adequação do Node.js para o backend do Clube de Benefícios
