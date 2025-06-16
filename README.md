@@ -111,37 +111,43 @@ rewards-club
 │   │   ├── auth.module.ts
 │   │   ├── auth.service.ts
 │   │   ├── auth.controller.ts
-│   │   ├── jwt.strategy.ts
+│   │   ├── dtos/
 │   ├── clients                    # Módulo de clientes
 │   │   ├── clients.module.ts
 │   │   ├── clients.service.ts
 │   │   ├── clients.controller.ts
+│   │   ├── dtos/
 │   │   ├── entities
 │   │   │   └── client.entity.ts
 │   ├── products                   # Módulo de produtos
 │   │   ├── products.module.ts
 │   │   ├── products.service.ts
 │   │   ├── products.controller.ts
+│   │   ├── dtos/
 │   │   ├── entities
 │   │   │   └── product.entity.ts
 │   ├── purchases                  # Módulo de compras
 │   │   ├── purchases.module.ts
 │   │   ├── purchases.service.ts
 │   │   ├── purchases.controller.ts
+│   │   ├── dtos/
 │   │   ├── entities
 │   │   │   └── purchase.entity.ts
 │   └── common                     # Utilitários e guards
 │       └── guards
 │           └── jwt-auth.guard.ts
+│           └── utils/password.utils.ts
 ├── test                           # Testes automatizados
 │   ├── clients.e2e-spec.ts
 │   └── products.e2e-spec.ts
+│   └── purchases.e2e-spec.ts
 ├── .env                           # Variáveis de ambiente
 ├── docker-compose.yml             # Subida do banco de dados PostgreSQL
 ├── init.sql                       # Script de inicialização do banco
 ├── package.json                   # Configuração NPM
 ├── tsconfig.json                  # Configuração TypeScript
 └── README.md                      # Documentação do projeto
+└── README-QUESTÕES.md                      # Documentação das questões
 ```
 
 ## Funcionalidades
